@@ -48,7 +48,7 @@ test('visit', async ({ page }) => {
 
 });
 
-describe('Audio Recording Tests', () => {
+test.describe('Audio Recording Tests', () => {
     test('Audio Test', async () => {
         const audioFilePath = path.join(__dirname, 'testdata/harvard.wav');
         const audioData = fs.readFileSync(audioFilePath);
