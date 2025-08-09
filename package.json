@@ -1,8 +1,13 @@
 {
   "name": "sully-ai-js",
   "version": "1.0.0",
+  "type": "module",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "pw:install": "playwright install"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
